@@ -1,0 +1,50 @@
+{
+	  "fernandina":  {
+        "nombre": "Fernandina",
+        "desarrollosustentable": ["Gotas Mágicas, títeres y teatro, Cuenca (Azuay)",
+"AllpaWasi, Parco Loma, Cuenca (Azuay)",
+"Casa Sol, Luis Nivelo, Cuenca","Zhuracpamba, Susudel (Azuay)",
+"Taita Alejo Valdivieso: el camino rojo, Susudel (Azuay)",
+"Temascales en Cuenca (Azuay)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]
+    },
+	  "isabela":  {
+        "nombre": "Isabela",
+        "desarrollosustentable": ["Gotas Mágicas, títeres y teatro, Cuenca (Azuay)",
+"AllpaWasi, Parco Loma, Cuenca (Azuay)",
+"Casa Sol, Luis Nivelo, Cuenca","Zhuracpamba, Susudel (Azuay)",
+"Taita Alejo Valdivieso: el camino rojo, Susudel (Azuay)",
+"Temascales en Cuenca (Azuay)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]
+    },
+
+	  "islasantiago":  {
+        "nombre": "Isla Santiago",
+        "desarrollosustentable": ["Gotas Mágicas, títeres y teatro, Cuenca (Azuay)",
+"AllpaWasi, Parco Loma, Cuenca (Azuay)",
+"Casa Sol, Luis Nivelo, Cuenca","Zhuracpamba, Susudel (Azuay)",
+"Taita Alejo Valdivieso: el camino rojo, Susudel (Azuay)",
+"Temascales en Cuenca (Azuay)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]
+    },
+	  "stacruz":  {
+        "nombre": "Azuay",
+        "desarrollosustentable": ["Gotas Mágicas, títeres y teatro, Cuenca (Azuay)",
+"AllpaWasi, Parco Loma, Cuenca (Azuay)",
+"Casa Sol, Luis Nivelo, Cuenca","Zhuracpamba, Susudel (Azuay)",
+"Taita Alejo Valdivieso: el camino rojo, Susudel (Azuay)",
+"Temascales en Cuenca (Azuay)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]
+    },
+
+
+    "ptobaquerizo": {
+	 "nombre": "Puerto Baquerizo",
+        "desarrollosustentable": ["es una provincia de Ecuador ubicada en el sur-oriente de la Amazonía ecuatoriana"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]}
+}

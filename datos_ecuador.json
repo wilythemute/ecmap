@@ -1,0 +1,159 @@
+{
+    "Loja": {
+        "nombre": "Loja",
+        "desarrollosustentable": ["Construcción y Agroecultura Ecologica", "Mercados Organicos", "ACOSL",
+            "Celso Veliz: arte en cerámica, Cera (Loja)" ,
+"Cera: tradición del barro, Cera (Loja)",
+"Casa Arte, tagua y semillas, Loja (Loja)",
+"Manuel EncarnacionQuizhpe, tejidos a mano, Saraguro (Loja)",
+"Ruinas incas, Saraguro (Loja)",
+"Selva Andina, Loja",
+"Operadora de turismo Saraurku, Saraguro (Loja)",
+"Polilla Gitano, Loja",
+"Shamuico, Saraguro (Loja)",
+"Casa de la Juventud Mashi Pierre, Saraguro (Loja)",
+"Máma Cuchara, Saraguro (Loja)",
+"Mercados orgánicos en Loja",
+"Luca, Vilcabamba (Loja)",
+"Selva Andina, Loja (Loja)",
+"Casa Arte, Loja (Loja)"],
+        "turismoalternativo": [""],
+        "datosdeinteres":[""]
+    },
+     "Pastaza": {
+       "nombre": "Pastaza ",
+        "desarrollosustentable": ["Comunidad Amazanga, Puyo (Pastaza)","Taita Rafa, Puyo (Pastaza)"],
+      "turismoalternativo": [""],
+        "datosdeinteres":[""]
+    },
+     "Azuay":  {
+        "nombre": "Azuay",
+        "desarrollosustentable": ["Gotas Mágicas, títeres y teatro, Cuenca (Azuay)",
+"AllpaWasi, Parco Loma, Cuenca (Azuay)",
+"Casa Sol, Luis Nivelo, Cuenca","Zhuracpamba, Susudel (Azuay)",
+"Taita Alejo Valdivieso: el camino rojo, Susudel (Azuay)",
+"Temascales en Cuenca (Azuay)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]
+    },
+     "Bolivar": {
+       "nombre": "Bolivar",
+        "desarrollosustentable": ["es una provincia del centro de Ecuador, en la cordillera occidental de los Andes"],
+      "turismoalternativo": [" Su capital es la ciudad de Guaranda. "],
+        "datosdeinteres":[" La Provincia de Bolívar se llama así en honor al Libertador Simón Bolívar. "]
+    },
+    "Cañar": {
+      "nombre": "Cañar",
+        "desarrollosustentable": [" oficialmente Provincia de Cañar es una de las 24 provincias que conforman la República del Ecuador. "],
+  "turismoalternativo": ["Se encuentra ubicada al sur del país, en la región geográfica conocida como sierra."],
+  "datosdeinteres":[""]  },
+    "Carchi": {
+       "nombre": "Carchi",
+        "desarrollosustentable": [" es una provincia ecuatoriana situada al norte del Ecuador en la frontera con Colombia. "],
+  "turismoalternativo": ["Su capital es la ciudad de Tulcán. Forma parte de la región 1"],
+  "datosdeinteres":[""]  },
+    "Chimborazo": {
+   "nombre": "Chimborazo",
+        "desarrollosustentable": ["Fundación Utopía, Riobamba (Chimborazo)",
+"Mercados orgánicos en Chimborazo",
+"Operadora PuruhaRazurku, CORDTUCH, Riobamba (Chimborazo)"],
+  "turismoalternativo": [""],
+  "datosdeinteres":[""]  },
+    "Cotopaxi": {
+    "nombre": "Cotopaxi",
+        "desarrollosustentable": ["oficialmente Provincia de Cotopaxi, es una de las 24 provincias de la República del Ecuador"],
+    "turismoalternativo": [" localizada en la región sierra del país, al centro-norte del país"],
+    "datosdeinteres":[""]},
+    "ElOro": {
+       "nombre": "El Oro",
+        "desarrollosustentable": ["es una provincia del Ecuador que forma parte de la Región Litoral."],
+  "turismoalternativo": ["Tiene una extensión de 6.188 km² y una población de 643.316 habitantes. "],
+  "datosdeinteres":["La capital de la provincia de El Oro es la ciudad de Machala",
+  "quinta ciudad del país, considerada como la <<capital bananera del mundo>>"] },
+    "Esmeraldas": {
+       "nombre": "Esmeraldas",
+        "desarrollosustentable": ["es una provincia del Ecuador situada en su costa noroccidental, conocida popularmente como la provincia verde."],
+  "turismoalternativo": ["Su capital homónima es uno de los puertos principales del Ecuador y terminal del oleoducto transandino."],
+  "datosdeinteres":["Posee un aeropuerto para vuelos nacionales e internacionales (vuelos a Cali)."]  },
+     "Guayas": {
+       "nombre": "Guayas",
+        "desarrollosustentable": [" oficialmente Provincia del Guayas,"],
+  "turismoalternativo": ["Es el mayor centro comercial e industrial del Ecuador."],
+  "datosdeinteres":[""]  },
+    "Imbabura": {
+       "nombre": "Imbabura",
+        "desarrollosustentable": ["Construcción y Agroecultura Ecologica", "Mercados Organicos", "ACOSL"],
+  "turismoalternativo": ["Su capital es la ciudad de Babahoyo y su localidad más poblada es la ciudad de Quevedo. "],
+  "datosdeinteres":["Es uno de los más importantes centros agrícolas del Ecuador."]  },
+    "LosRios": {
+  "nombre": "Los Rios",
+        "desarrollosustentable": [" es una de las 24 provincias de la República del Ecuador, localizada en la Región Costa del país. "],
+    "turismoalternativo": [" "],
+    "datosdeinteres":[""]},
+    "Manabi": {
+    "nombre": "Manabí",
+        "desarrollosustentable": ["Union de organizaciones campesinas de Quevedo (Manabi)"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "MoronaSantiago": {
+      "nombre": "Morona Santiago",
+        "desarrollosustentable": ["es una de las 24 provincias que conforman la República del Ecuador."],
+  "turismoalternativo": ["Es una provincia de la Amazonía ecuatoriana. "],
+  "datosdeinteres":["Su capital es la ciudad de Macas, la cual además, es su urbe más poblada."]  },
+    "Napo": {
+      "nombre": "Napo",
+        "desarrollosustentable": [" es una de las provincias de la Región Centro Norte (Ecuador), de la República del Ecuador, situada en la región amazónica ecuatoriana e incluyendo parte de las laderas de los Andes, hasta las llanuras amazónicas"],
+    "turismoalternativo": ["Toma su nombre del río Napo. Su capital es la ciudad de Tena"],
+    "datosdeinteres":[""]},
+    "Orellana": {
+     "nombre": "Orellana",
+        "desarrollosustentable": [" provincia de la Región Centro Norte (Ecuador), Ecuador, La capital de la provincia es El Coca más conocida como «Coca». "],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "Pichincha": {
+       "nombre": "Pichincha",
+        "desarrollosustentable": ["Fundación Runakawsai, Quito (pichincha)",
+          "CDES, Quito (Pichincha)","FENOCIM, Quito (Pichincha)",
+          "Zapallo Verde, Quito (Pichincha)",
+          "FENOCIM, Quito (pichincha)",
+          "Mercados orgánicos en Quito(Pichincha)",
+          "Escuela de Permacultura Centro Tinku, Quito (pichincha)",
+          "Casa Flor de Cactu, Tumbaco (Pichincha)",
+          "Proyecto social de agricultura urbana ‘agrupar’, Quito (Pichincha)"
+],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+     "SantaElena": {
+       "nombre": "Santa Elena",
+        "desarrollosustentable": ["es una provincia de la costa de Ecuador creada el 7 de noviembre de 2007,",
+        "la más reciente de las 24 actuales, con territorios que anterior a esa fecha formaban parte de la provincia del Guayas,",
+        "al oeste de ésta.",
+        "Su capital es la ciudad de Santa Elena."],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "SantoDomingo": {
+       "nombre": "Santo Domingo de los Tzachilas",
+        "desarrollosustentable": ["es una de las provincias de la República del Ecuador y forma parte de la Región Costa, históricamente conocida como Provincia de Yumbos."],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "Sucumbios": {
+     "nombre": "Sucumbíos",
+        "desarrollosustentable": ["Es una provincia del nor-oriente del Ecuador. Su capital es Nueva Loja."],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+	"Galapagos": {
+	 "nombre": "Galápagos",
+        "desarrollosustentable": ["es una provincia de Ecuador ubicada en el sur-oriente de la Amazonía ecuatoriana"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "Tungurahua": {
+     "nombre": "Tungurahua",
+        "desarrollosustentable": [" oficialmente Provincia de Tungurahua, es una de las 24 provincias que conforman la República del Ecuador. Se encuentra al centro del país, en la región geográfica conocida como sierra."],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]},
+    "ZamoraCh": {
+       "nombre": "Zamora Chinchipe",
+        "desarrollosustentable": ["es una provincia de Ecuador ubicada en el sur-oriente de la Amazonía ecuatoriana"],
+    "turismoalternativo": [""],
+    "datosdeinteres":[""]}
+}

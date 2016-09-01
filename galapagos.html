@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="David Sawyer Javascript: The Missing Manual P. 547">
+    <meta name="author" content="Wilson Bravo ">
+
+    <title>Mapa Demo Ecuador</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+<script type="text/javascript"
+src="libs/jquery-2.0.2.js"></script> <script type="text/javascript" src="libs
+/jquery-migrate-1.1.1.js"></script> <script type="text/javascript"
+src="libs/jquery.svg.min.js"></script> <script
+type="libs/jquery.svgdom.min.js"></script> <style type="text/css"> #svgMapa{
+width:50%; height:50%; } .Region:hover, .Region:hover, path{ fill:
+!important; stroke:#7da4c2 !important; } </style> <script
+type="text/javascript"> window.infoMapa = { regionActiva: '', colores:{},
+datos: {} };  //Función encargada de inicializar el mapa
+window.inicializarMapa = function inicializarMapa(svgObj){
+jQuery.getJSON('datos_gala.json', function(data, textStatus, jqXHR){
+infoMapa.datos = data;   });   jQuery('.Region').each(function(index,
+element){   infoMapa.colores[element.id] = jQuery(element).css('fill');   });
+jQuery('.Region').on('click', function(e){   var datosRegion,   RegionNueva;
+if(infoMapa.regionActiva!==''){       jQuery('#'+infoMapa.regionActiva).css({
+'fill': infoMapa.colores[infoMapa.regionActiva],         'stroke-width': 0.5
+});       jQuery('#'+infoMapa.regionActiva).find('path').css({         'fill':
+infoMapa.colores[infoMapa.regionActiva],         'stroke-width': 0.5       });
+};       RegionNueva = jQuery(this);       infoMapa.regionActiva =
+RegionNueva.attr('id');       RegionNueva.css({       'fill': '#FFFFFF',
+'stroke-width': 0.5       }).find('path').css({       'fill': '#FFFFFF',
+'stroke-width': 0.5        });       datosRegion =
+infoMapa.datos[infoMapa.regionActiva];        jQuery('#divDatos').html('')
+.append(jQuery('<p></p>').text(datosRegion.nombre)) .append(jQuery('<br/>'))
+.append(jQuery('<p></p>').text(' ' + datosRegion.desarrollosustentable.join(',') ))       
+.append(jQuery('<br/>')) .append(jQuery('<p></p>').text(' ' +
+datosRegion.turismoalternativo + ' ')) .append(jQuery('<br/>'))
+.append(jQuery('<p></p>').text(' ' + datosRegion.datosdeinteres + ' '));
+
+
+e.stopPropagation();
+
+  });
+
+
+$('#image5364').on('click',function(){
+
+var lnk=$('#InLink').attr('href');
+$('#InLink').load(lnk);    
+//alert(lnk);
+});
+};
+
+//Manejadores de eventos
+jQuery(document).ready(function(){
+
+
+    jQuery('#svgMapa').svg({
+        'loadURL': 'Galapagos.svg',
+        'onLoad': window.inicializarMapa
+    });
+
+
+    jQuery('#svgMapa').on('click', 'path', function(e){
+
+        if(infoMapa.regionActiva == ''){
+            return;
+        }
+
+        jQuery('#'+infoMapa.regionActiva).css({
+            'fill':  infoMapa.colores[infoMapa.regionActiva],
+            'stroke-width': 0.1
+        }).find('path').css({
+            'fill':  infoMapa.colores[infoMapa.regionActiva],
+            'stroke-width': 0.1
+        });
+
+
+        jQuery('#divDatos').html(' ');
+
+        infoMapa.regionActiva = ' ' ;
+
+    });
+
+
+});
+    </script>
+    
+
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ecuador Map</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a id="InLink" href="galapagos.html">Región Insular</a>
+                    </li>
+                
+                      
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Mapa del Ecuador 
+                    <small>Javascript, Html, Css y Json</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+        <div id="svgMapa"></div>
+     
+            
+      
+            </div>
+            <div class="col-md-5">
+           <div id="divDatos">
+           </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+      
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+              
+            </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; wabc 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <!--script src="js/jquery.js"></script-->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
